@@ -129,6 +129,7 @@ line-height: normal;
 letter-spacing: 1px;
 text-transform: uppercase;
 transition: 1s all ease;
+border: transparent;
 }
 .main-page__paragraph button:hover{
     background-color: var(--o-animation);
@@ -404,6 +405,7 @@ text-transform: uppercase;
 margin-left: 300px;
 margin-top: 118px;
 transition: 1s all ease;
+border: transparent;
 
 }
 .footer button:hover{
@@ -463,10 +465,34 @@ margin-left: 80px;
     margin-top: 50px;
 
 }
+.element{
+    position: fixed;
+    bottom: 0;
+    width: 70px;
+    height: 70px;
+    background-color: #333136;
+    border-radius:10px;
+    margin-left: 1200px;
+}
+.element a{
+    text-decoration: none;
+    color: white;
+    font-family:  sans-serif;
+    padding-left: 18px;
+    
+}
+.element h1{
+    transform: translateY(13px);
+}
 
 @media screen and (max-width:568) {
     .foot ul{
         color: black;
+    }
+    .col_me__conta{
+        max-width: 560px;
+        background-color: black;
+        text-align: center;
     }
     
 }
